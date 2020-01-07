@@ -1,5 +1,7 @@
 My presentation on PDFKit from 360iDev 2019, along with sample code.
 
+The video recording of my talk is now in this repo.  The same video is also available online at https://vimeo.com/359818794 and https://www.youtube.com/watch?v=rdDJI60YGA8.
+
 The sample app is a very fake ticket sales app for a very fake band named Mitch and the Memory Leakers, known as the Second Best Apple Developer Rock n Roll Band.  (The best, of course, [James Dempsey and the Breakpoints](https://jamesdempsey.net/)!)  The concept is that you're tasked with writing the band's app, with the focus on ticket sales.  A designer has given you a PDF template.  The user will purchase a ticket, and the app needs to generate a PDF based on the template but adding the user's name, a trackable link to the band's web site (the user's name appended to the URL), and a QR code of the user's name.
 
 The code is intentionally simplified, and contains stuff you shouldn’t do in real code, like force unwraps.
